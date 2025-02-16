@@ -1,7 +1,7 @@
 Projetinho inicial pra uma empresa ficticia que estou fazendo,
 que ainda está em testes, conforme eu for atualizando-o, atualizarei ele no GitHub tambem!
-
 Insistrus Corporation Versão (0.1) ainda em constantes atualizações.
+
 #ChangeLog [0.0.1] 24-01-2025
 ### Data De Criação
 - Estrutura Inicial do Projeto
