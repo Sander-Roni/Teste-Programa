@@ -1,12 +1,12 @@
 import speech_recognition as service  #Usar Futuramente!
-from tkinter import *
+from tkinter import * # Tkinter Base
 import tkinter as tk
-from tkinter import messagebox 
+from tkinter import messagebox # Message Box o Classico
 from PIL import Image,ImageTk
-import sqlite3 as conector
-import random
-import time
-import webview
+import sqlite3 as conector #Sqlite 3 Sendo importado como Biblioteca
+import random # Biblioteca para gerar numeros aleatorios
+import time    # Biblioteca de tempo 
+import webview    # Biblioteca concatenada ao tkinter que associa o google a ele
 
 
 class App:
@@ -454,6 +454,10 @@ class App:
         webview.create_window("Google","https://www.google.com")
         webview.start()
         self.Janela_Principal(dado_nome)
+
+
+# O Sistema aqui dava pra ter feito usado Herança
+
 
 out = App()
 out.JanelaBase()
